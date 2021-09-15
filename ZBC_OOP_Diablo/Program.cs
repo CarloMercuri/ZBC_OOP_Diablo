@@ -10,6 +10,9 @@ namespace ZBC_OOP_Diablo
     {
         static void Main(string[] args)
         {
+
+            WeaponsFactory f = new WeaponsFactory();
+            GUI gui = new GUI(f);
             Console.ReadLine();
         }
     }

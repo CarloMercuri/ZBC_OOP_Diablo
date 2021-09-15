@@ -32,4 +32,20 @@ namespace ZBC_OOP_Diablo
         OneHanded,
         TwoHanded
     }
+
+    public enum BonusDamageType
+    {
+        Poison = 0,
+        Cold = 1,
+        Fire = 2,
+        Lightning = 3,
+        Arcane = 4,
+        Holy = 5
+    }
+
+    public enum AttributeType
+    {
+        Primary,
+        Secondary
+    }
 }
